@@ -1,0 +1,35 @@
+---
+title: "Introduction to R"
+name: "Harshit Arora"
+date: "18/2/20"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##    Arithematic Operations
+
+Below is the set of some arithematic operations in R.
+
+```{r cars}
+x = 20
+y = 5
+x+y
+x-y
+x*y
+x/y
+sqrt(x)
+x^y
+exp(x)
+log(x, base=exp(1))
+log10(x)
+help("log") # Utilizing R Help
+factorial(x)
+cos(x)
+abs(x)
+
+```
+
+
